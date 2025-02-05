@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- informazioni minime per i motori di ricerca -->
+    <title>TITOLO_PROGETTO</title>
+    <meta name="description" content="DESCRIZIONE_BREVE_PROGETTO">
+    <meta name="author" content="NOME_AUTORE">
+    
+    <!-- informazioni per la condivisione sui social -->
+    <meta property="og:title" content="TITOLO_PROGETTO">
+    <meta property="og:description" content="DESCRIZIONE_BREVE_PROGETTO">
+    <meta property="og:image" content="preview.png">
+    
+    <!-- P5.js e librerie -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.sound.min.js"></script>
+    
+    <!-- CSS personalizzato -->
+    <link rel="stylesheet" href="microsito.css">
+</head>
+<body>
+    <!-- pannello informazioni -->
+    <div id="pannello-info">
+        <div class="contenuto-info">
+            <h1>TITOLO_PROGETTO</h1>
+            <p class="autore">di NOME_AUTORE</p>
+            
+            <div class="sezione">
+                <h2>Introduzione</h2>
+                <p>BREVE_INTRODUZIONE_AL_TEMA</p>
+            </div>
+            
+            <div class="sezione">
+                <h2>Come funziona</h2>
+                <p>DESCRIZIONE_FUNZIONAMENTO</p>
+            </div>
+            
+            <div class="sezione">
+                <h2>Interazione</h2>
+                <p>ISTRUZIONI_INTERAZIONE</p>
+            </div>
+            
+            <div class="sezione">
+                <h2>Crediti</h2>
+                <p>CREDITI_MATERIALI_ESTERNI</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- pulsanti controllo -->
+    <button id="pulsante-info" aria-label="Mostra informazioni">?</button>
+    <button id="pulsante-audio" aria-label="Play/Pause audio">▶</button>
+
+    <!-- script -->
+    <script src="microsito.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
