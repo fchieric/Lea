@@ -1,6 +1,5 @@
-# Lea
+# Obiettivi
 
-Obiettivi
 Obiettivi tecnici
 
 Sviluppare un microsito con una sperimentazione audio-visuale sinestetica basata su uno o più procedimenti generativi guidati da un brano audio a scelta.
